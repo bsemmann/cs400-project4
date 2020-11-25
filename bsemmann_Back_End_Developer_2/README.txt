@@ -13,7 +13,9 @@ Lecturer: Gary Dahl
 
 Contributions Week 1:
 ---------------------
-Create the back end java class and began writing the get and other methods used for easy access to various points of data
+Create the back end java class and began writing the getState and getWinner methods used to 
+retrieve the state and the winner of the election in that state with one simple call to 
+one of these methods.
 
 Contributions Week 2:
 ---------------------
