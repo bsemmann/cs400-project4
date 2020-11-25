@@ -4,22 +4,16 @@ README for Team Project Four (CS400 @ UW Madison)
 Every member of a team must have an individual README.txt file filled in in their folder on
 the team's GitHub repo.
 
-Name of submitting team member: <fill in your name here>
-Wisc email of submitting team member: <fill in your wisc email here>
-Team name: <fill in your team name here>
-Role of submitting team member: <your role on the team>
-TA: <your team's TA>
-Lecturer: <your Lecturer's name>
+Name of submitting team member: Sriram Alla
+Wisc email of submitting team member: salla@wisc.edu
+Team name: Team FF
+Role of submitting team member: Test Engineer
+TA: Abhay Kumar
+Lecturer: Gary Dahl
 
 Contributions Week 1:
 ---------------------
-<Replace this with a list your contributions for the week 1 deliverable.
-You can list the java files that you wrote and committed during the first week,
-or the data files your created or worked on. If you haven't written any code or
-other content that your can commit, provide a list of the work that you did
-during week 1. Make sure that all your week 1 contributions and this section
-of the readme are committed and pushed to the GitHub repo by the week 1 deadline
-on 11/24 at 11:59pm CST.>
+Created a basic java test class with jUnit 5 to test our team members' code.
 
 Contributions Week 2:
 ---------------------
