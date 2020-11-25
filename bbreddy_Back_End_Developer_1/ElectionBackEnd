@@ -1,0 +1,27 @@
+import java.util.LinkedList;
+import java.util.NoSuchElementException;
+
+public class ElectionBackEnd {
+
+   /**
+   * Returns the result of election in a particular state
+   * @param state in which winner is requested
+   * @return the winner
+   */
+  public int getResult(String state) {
+     
+    return 0;
+     
+   }
+   
+   /**
+   * Gives a random state
+   * @param winner of a certain party
+   * @return the state name
+   */
+  public String getState(String winner) {
+     
+    return "";
+     
+   }
+}
