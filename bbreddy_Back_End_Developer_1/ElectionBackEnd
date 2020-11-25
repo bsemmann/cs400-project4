@@ -8,20 +8,26 @@ public class ElectionBackEnd {
    * @param state in which winner is requested
    * @return the winner
    */
-  public int getResult(String state) {
+  public String getResult(String state) {
      
-    return 0;
+    int state1 = getState(state);
+    String winner = null; 
+    
+    winner = state1.data;
+    
+    return winner;
      
    }
    
    /**
-   * Gives a random state
-   * @param winner of a certain party
-   * @return the state name
+   * Gives the hash value of the state
+   * @param state which is required
+   * @return hashcode of the state
    */
-  public String getState(String winner) {
+  public int getState(String state) {
      
-    return "";
-     
+    int hashCode = state.hashCode();
+    
+    return hashCode;     
    }
 }
