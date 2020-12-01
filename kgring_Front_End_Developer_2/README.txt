@@ -19,13 +19,7 @@ NOTE: I did not deliver on my deliverable promised in the proposal. I will make 
 
 Contributions Week 2:
 ---------------------
-<Replace this with a list your contributions for the week 2 deliverable.
-You can list the java files that you wrote and committed during the first week,
-or the data files your created or worked on. If you haven't written any code or
-other content that your can commit, provide a list of the work that you did
-during week 2. Make sure that all your week 2 contributions and this section
-of the readme are committed and pushed to the GitHub repo by the week 2 deadline
-on 12/01 at 11:59pm CST.>
+I created electionMap.html
 
 Contributions Week 3:
 ---------------------
@@ -39,24 +33,15 @@ on 12/08 at 11:59pm CST.>
 
 Files written by me:
 --------------------
-<List ALL of the source files here that were written by you. Note that each of the
-files must contain correct file headers, including your name, team, and role. List
-files one per line in this section of the README. Only complete this section with
-your final week 3 submission of project four.>
+electionMap.html
 
 Files submitted with this project that were developed in an earlier project:
 ----------------------------------------------------------------------------
-<If you have any files written by you or your team in your submission that were
-written for an earlier project and that you re-used for project four, replace this
-text with a list of these files. Provide file name and path as well as the project
-that they were originally developed for.>
+N/A
 
 Web address at which the program is available:
 ----------------------------------------------
-<If you and your team have written a web app that is available on the internet,
-replace this text with its address. This is not a requirement of Project Four
-and you will not loose points for not implementing a web application or for not
-having a running version on the web.>
+https://pages.cs.wisc.edu/~ring/Project4/electionMap.html
 
 Additional notes about the submission:
 --------------------------------------
