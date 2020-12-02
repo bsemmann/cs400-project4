@@ -1,5 +1,3 @@
-import java.util.NoSuchElementException;
-
 // --== CS400 File Header Information ==--
 // Name: Brian Semmann
 // Email: bsemmann@wisc.edu
@@ -8,6 +6,9 @@ import java.util.NoSuchElementException;
 // Role: Back End Developer
 // Lecturer: Gary Dahl
 // Notes to Grader: <optional extra notes>
+
+import java.util.LinkedList;
+import java.util.NoSuchElementException;
 
 /**
  * The class will provide the back end code for the election map given
@@ -20,29 +21,18 @@ import java.util.NoSuchElementException;
  *
  */
 public class BackEndElectionMap {
-
+	
 	/**
-	 * This constructor creates a new instance of the back end
-	 * of the election map and gives the front end developer access
-	 * to the get methods that it contains.
-	 */
-	public BackEndElectionMap() {
-		//Create new instance of the data field
-	}
-	
-	
-	
-	public State getState(String stateName) {
-		int hash = stateName.hashCode();
-		State toReturn = null; // the state data type to return
+	   * This method returns the hash value of the state
+	   * 
+	   * @param state in which winner is requested
+	   * @return the winner
+	   */
+	public int getState(String stateName) {
 		
-		if (hash != null ) { // if the hashed value doesn't equal null
-			//toReturn = state value at the hashed index;
-		} else {
-			throw new NoSuchElementException("The state you are looking for does not exist!");
-		}
+		int hashValue = stateName.hashCode(); //uses the hash code method to get value 
 		
-		return toReturn;
+		return hashValue; //return the location of state in the hash table
 	}
 	
 	
@@ -55,10 +45,11 @@ public class BackEndElectionMap {
 	 * @return
 	 */
 	public String getWinner(String stateName) {
-		State state = getState(stateName);
+		int state = getState(stateName);
 		String winner = null; 
 		
-		winner = state.getWinner;
+		winner = state.data; //gets the string data & throws a no such element exception
+							 //if the state does not exist. Still waiting on hashtable of states
 		
 		return winner;
 	}
