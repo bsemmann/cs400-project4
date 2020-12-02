@@ -1,7 +1,9 @@
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
 
-public class ElectionBackEnd {
+public class ElectionBackEnd{
+  
+  HashTableMap map = new HashTableMap();
 
    /**
    * Returns the result of election in a particular state
@@ -30,4 +32,13 @@ public class ElectionBackEnd {
     
     return hashCode;     
    }
+  
+  /**
+   * Checks if the state is actually present
+   * @param state to be checked
+   */
+  public void getContainsKey(String state) {
+    boolean result = map.containsKey(state);
+    System.out.println(result);
+  }
 }
