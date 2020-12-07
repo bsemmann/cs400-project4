@@ -7,6 +7,7 @@
 // Lecturer: Gary Dahl
 // Notes to Grader: <optional extra notes>
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
 
@@ -44,14 +45,14 @@ public class BackEndElectionMap {
 	 * winner of the election in that specific state.
 	 * 
 	 * @param state the state you want to find the winner of 
-	 * @return
+	 * @return name of winner
 	 */
-	public String getWinner(String stateName) {
+	public String getWinnerName(String stateName) {
 		int state = getState(stateName);
+		ArrayList<String> canidate = (ArrayList<String>) map.get(state);
 		String winner = null; 
 		
-		winner = (String) map.get(state); //gets the string data & throws a no such element exception
-							 //if the state does not exist. Still waiting on hashtable of states
+		winner = canidate.get(0); 
 		
 		return winner;
 	}
@@ -65,4 +66,53 @@ public class BackEndElectionMap {
 	    boolean result = map.containsKey(state);
 	    System.out.println(result);
 	  }
+	  
+	  /**
+	   * returns the number of electoral votes that the given state has
+	   * 
+	   * @param stateName
+	   * @return number of electoral votes
+	   */
+	  public String getElectoralVotes(String stateName) {
+		  String elcVotes = null;
+		  ArrayList<String> canidate = (ArrayList<String>) map.get(getState(stateName));
+			
+		  elcVotes = canidate.get(1); 
+		  
+		  return elcVotes;
+	  }
+	  
+	  /**
+	   * Returns the percentage of votes that the winner of the given
+	   * state recieved from that state or district
+	   * 
+	   * @param stateName
+	   * @return win percentage
+	   */
+	  public String getWinnerPercent(String stateName) {
+		  String winPercentage = null;
+		  ArrayList<String> canidate = (ArrayList<String>) map.get(getState(stateName));
+			
+		  winPercentage = canidate.get(2); 
+		  
+		  return winPercentage;
+	  }
+	  
+	  /**
+	   * Returns the percentage of votes that the loser of the given
+	   * state recieved from that state or district
+	   * 
+	   * @param stateName
+	   * @return percentage of votes for loser
+	   */
+	  public String getLoserPercent(String stateName) {
+		  String loserVotePercentage = null;
+		  ArrayList<String> canidate = (ArrayList<String>) map.get(getState(stateName));
+			
+		  loserVotePercentage = canidate.get(3); 
+		  
+		  return loserVotePercentage;
+	  }
+	  
+	  
 }
