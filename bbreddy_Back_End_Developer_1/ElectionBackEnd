@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class ElectionBackEnd {
   USElectionData map = new USElectionData();
-  HashTableMap<String, ArrayList<String>> table = map.dataHashTable;//to get required hashtable map
+  HashTableMap<String, ArrayList<String>> table = map.getDataHashTable();//to get required hashtable map
                                                                     //from USElectionData class
   
   ArrayList<String> result = new ArrayList<>();// creating an array list of type string
