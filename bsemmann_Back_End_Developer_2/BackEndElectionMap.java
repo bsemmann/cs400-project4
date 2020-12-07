@@ -22,6 +22,8 @@ import java.util.NoSuchElementException;
  */
 public class BackEndElectionMap {
 	
+	HashTableMap map = new HashTableMap();
+	
 	/**
 	   * This method returns the hash value of the state
 	   * 
@@ -48,9 +50,19 @@ public class BackEndElectionMap {
 		int state = getState(stateName);
 		String winner = null; 
 		
-		winner = state.data; //gets the string data & throws a no such element exception
+		winner = (String) map.get(state); //gets the string data & throws a no such element exception
 							 //if the state does not exist. Still waiting on hashtable of states
 		
 		return winner;
 	}
+	
+	/**
+	   * Checks if the state is in the hash table and prints out the
+	   * boolean result of that check.
+	   * @param state to be checked
+	   */
+	  public void getContainsKey(String state) {
+	    boolean result = map.containsKey(state);
+	    System.out.println(result);
+	  }
 }
