@@ -1,26 +1,34 @@
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
+import java.util.ArrayList;
 
 public class ElectionBackEnd{
   
   HashTableMap map = new HashTableMap();
+  USElectionData data = new USElectionData();
+  HashTableMap<String, ArrayList<String>> table = data.getDataHashTable();
+  ArrayList<String> states = data.getHashTableKeys();
+  
+  
 
    /**
    * Returns the result of election in a particular state
    * @param state in which winner is requested
    * @return the winner
    */
-  public String getResult(String state) {
-     
-    int state1 = getState(state);
+  public ArrayList<String> getResult(String state) {
+     ArrayList<String> result=null;
     String winner = null; 
+    for(int i=0;i<4;i++) {
+    winner = (String) map.get(state);
+    result.add(winner);
     
-    winner = state1.data;
-    
-    return winner;
+    }
+    return result;
+  }
      
-   }
    
+  
    /**
    * Gives the hash value of the state
    * @param state which is required
