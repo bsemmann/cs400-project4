@@ -26,13 +26,9 @@ like the front end developers driver.
 
 Contributions Week 3:
 ---------------------
-<Replace this with a list your contributions for the week 3 deliverable.
-You can list the java files that you wrote and committed during the first week,
-or the data files your created or worked on. If you haven't written any code or
-other content that your can commit, provide a list of the work that you did
-during week 3. Make sure that all your week 3 contributions and this section
-of the readme are committed and pushed to the GitHub repo by the week 3 deadline
-on 12/08 at 11:59pm CST.>
+I added more get methods so the front end devolper could easily grab the data from the
+states ArrayList of data and use that in their html implementation. I also updated those 
+methods for the new data given to us by the data wrangler
 
 Files written by me:
 --------------------
