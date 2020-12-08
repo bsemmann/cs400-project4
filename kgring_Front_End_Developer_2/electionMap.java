@@ -158,4 +158,8 @@ down-content\"><a>Link 1</a></div></div></td>");
 
                 System.out.println("</tr></body></html>");
         }
+        
+        private String getWinner(String state) {
+                return obj.getWinnerName(state);
+        }
 }
