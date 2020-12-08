@@ -36,17 +36,11 @@ BackEndElectionMap.java
 
 Files submitted with this project that were developed in an earlier project:
 ----------------------------------------------------------------------------
-<If you have any files written by you or your team in your submission that were
-written for an earlier project and that you re-used for project four, replace this
-text with a list of these files. Provide file name and path as well as the project
-that they were originally developed for.>
+N/A
 
 Web address at which the program is available:
 ----------------------------------------------
-<If you and your team have written a web app that is available on the internet,
-replace this text with its address. This is not a requirement of Project Four
-and you will not loose points for not implementing a web application or for not
-having a running version on the web.>
+http://34.123.142.107/cgi-bin/test.cgi
 
 Additional notes about the submission:
 --------------------------------------
