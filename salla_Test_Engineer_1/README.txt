@@ -29,10 +29,9 @@ TestApplication.java
 
 Files submitted with this project that were developed in an earlier project:
 ----------------------------------------------------------------------------
-<If you have any files written by you or your team in your submission that were
-written for an earlier project and that you re-used for project four, replace this
-text with a list of these files. Provide file name and path as well as the project
-that they were originally developed for.>
+MapADT.java
+ListNode.java
+HashTableMap.java
 
 Web address at which the program is available:
 ----------------------------------------------
@@ -40,4 +39,4 @@ https://pages.cs.wisc.edu/~alla/Election.html
 
 Additional notes about the submission:
 --------------------------------------
-<List any additional notes for the grader here (only required by the final deadline).>
+The run goal of the makefile simply runs the junit tests, as the real application interface is on a webpage that is linked above.
