@@ -1,11 +1,18 @@
 run: compile
-	@echo "FIXME: *run* should be the default target and compile and execute your code."
-
+        ./test.cgi
 compile:
-	@echo "FIXME: *compile* should compile your code"
-
-test:
-	@echo "FIXME: *test* should run all your group's testing engineer's JUnit tests for the application"
-
+        javac MapADT.java
+        javac HashTableMap.java
+        javac USElectionData.java
+        javac ElectionBackEnd.java
+	javac TestApplication.java
+        javac MyWebpage.java
+test: compile
+        java TestApplication
 clean:
-	$(RM) *.class
+        $(RM) HashTableMap.class
+        $(RM) USElectionData.class
+        $(RM) ElectionBackEnd.class
+        $(RM) TestApplication.class
+        $(RM) MyWebpage.class
+        $(RM) MapADT.class
