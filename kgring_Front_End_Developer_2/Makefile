@@ -1,5 +1,5 @@
 run: compile
-        ./test.cgi
+        java MyWebPage
 compile:
         javac MapADT.java
         javac HashTableMap.java
