@@ -1,5 +1,11 @@
 README for Team Project Four (CS400 @ UW Madison)
 ==================================================
+WEBPAGE CREATION GUIDE FOR PROJECT MEMBERS
+------------------------------------------
+1.) Follow the CGI lecture from Module 11
+2.) Put all of our project code in the cgi-bin folder including the csv
+3.) This will generate your own unique webpage for grading, make sure to put the link to it at the bottom of your readme
+------------------------------------------
 
 Every member of a team must have an individual README.txt file filled in in their folder on
 the team's GitHub repo.
@@ -33,7 +39,7 @@ on 12/08 at 11:59pm CST.>
 
 Files written by me:
 --------------------
-electionMap.html (OLD FILE)
+MyWebpage.java
 
 
 Files submitted with this project that were developed in an earlier project:
@@ -42,8 +48,7 @@ N/A
 
 Web address at which the program is available:
 ----------------------------------------------
-https://pages.cs.wisc.edu/~ring/Project4/electionMap.html (OLD LINK)
-http://34.123.142.107/cgi-bin/test.cgi (NEW LINK)
+http://34.123.142.107/cgi-bin/test.cgi
 
 Additional notes about the submission:
 --------------------------------------
