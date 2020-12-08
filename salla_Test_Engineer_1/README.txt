@@ -21,13 +21,7 @@ Continued working on the java test class to update methods to work with the code
 
 Contributions Week 3:
 ---------------------
-<Replace this with a list your contributions for the week 3 deliverable.
-You can list the java files that you wrote and committed during the first week,
-or the data files your created or worked on. If you haven't written any code or
-other content that your can commit, provide a list of the work that you did
-during week 3. Make sure that all your week 3 contributions and this section
-of the readme are committed and pushed to the GitHub repo by the week 3 deadline
-on 12/08 at 11:59pm CST.>
+Completed the test suite for the code written by my teammates using junit5 test cases.
 
 Files written by me:
 --------------------
@@ -42,10 +36,7 @@ that they were originally developed for.>
 
 Web address at which the program is available:
 ----------------------------------------------
-<If you and your team have written a web app that is available on the internet,
-replace this text with its address. This is not a requirement of Project Four
-and you will not loose points for not implementing a web application or for not
-having a running version on the web.>
+https://pages.cs.wisc.edu/~alla/Election.html
 
 Additional notes about the submission:
 --------------------------------------
