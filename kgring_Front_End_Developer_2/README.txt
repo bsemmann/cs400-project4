@@ -33,8 +33,8 @@ on 12/08 at 11:59pm CST.>
 
 Files written by me:
 --------------------
-electionMap.html (OLD LINK)
-http://34.123.142.107/cgi-bin/test.cgi
+electionMap.html (OLD FILE)
+
 
 Files submitted with this project that were developed in an earlier project:
 ----------------------------------------------------------------------------
@@ -42,7 +42,8 @@ N/A
 
 Web address at which the program is available:
 ----------------------------------------------
-https://pages.cs.wisc.edu/~ring/Project4/electionMap.html
+https://pages.cs.wisc.edu/~ring/Project4/electionMap.html (OLD LINK)
+http://34.123.142.107/cgi-bin/test.cgi (NEW LINK)
 
 Additional notes about the submission:
 --------------------------------------
