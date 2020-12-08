@@ -1,11 +1,14 @@
 run: compile
-	@echo "FIXME: *run* should be the default target and compile and execute your code."
+	java -jar junit5.jar --class-path . --scan-classpath --details tree
+	
+compile: 
+	javac HashTableMap.java
+	javac USElectionData.java
+	javac ElectionBackEnd.java
+	javac -cp .:junit5.jar TestApplication.java
 
-compile:
-	@echo "FIXME: *compile* should compile your code"
-
-test:
-	@echo "FIXME: *test* should run all your group's testing engineer's JUnit tests for the application"
+test: 
+	java -jar junit5.jar --class-path . --scan-classpath --details tree
 
 clean:
 	$(RM) *.class
