@@ -5,6 +5,7 @@ compile:
 	javac HashTableMap.java
 	javac USElectionData.java
 	javac BackEndElectionMap.java
+	javac MyWebpage.java
 	javac -cp .:junit5.jar TestApplication.java
 
 test: 
