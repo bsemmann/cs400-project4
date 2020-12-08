@@ -4,7 +4,7 @@ run: compile
 compile: 
 	javac HashTableMap.java
 	javac USElectionData.java
-	javac ElectionBackEnd.java
+	javac BackEndElectionMap.java
 	javac -cp .:junit5.jar TestApplication.java
 
 test: 
