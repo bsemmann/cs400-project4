@@ -23,22 +23,21 @@ import java.util.NoSuchElementException;
  */
 public class BackEndElectionMap {
 	
-	HashTableMap map = new HashTableMap();
+	USElectionData map = new USElectionData();
+	HashTableMap<String, ArrayList<String>> hashTable = map.getDataHashTable();
+	
+	ArrayList<String> candidate = new ArrayList<>();
 	
 	/**
-	   * This method returns the hash value of the state
-	   * 
-	   * @param state in which winner is requested
-	   * @return the winner
+	   * Checks if the state is in the hash table and prints out the
+	   * boolean result of that check.
+	   * @param state to be checked
 	   */
-	public int getState(String stateName) {
+	  public boolean getContainsKey(String state) {
+	    boolean result = hashTable.containsKey(state); 
+	    return result;
+	  }
 		
-		int hashValue = stateName.hashCode(); //uses the hash code method to get value 
-		
-		return hashValue; //return the location of state in the hash table
-	}
-	
-	
 	/**
 	 * This method takes a parameter of one of the fifty states in
 	 * the United States and (given that is a real state) returns the
@@ -48,24 +47,12 @@ public class BackEndElectionMap {
 	 * @return name of winner
 	 */
 	public String getWinnerName(String stateName) {
-		int state = getState(stateName);
-		ArrayList<String> canidate = (ArrayList<String>) map.get(state);
-		String winner = null; 
-		
-		winner = canidate.get(0); 
-		
-		return winner;
+		 
+	     candidate = hashTable.get(stateName); //get candidate from hashtable
+	     String winner = candidate.get(1); //get data from candidate
+	     	     		
+		 return winner;
 	}
-	
-	/**
-	   * Checks if the state is in the hash table and prints out the
-	   * boolean result of that check.
-	   * @param state to be checked
-	   */
-	  public void getContainsKey(String state) {
-	    boolean result = map.containsKey(state);
-	    System.out.println(result);
-	  }
 	  
 	  /**
 	   * returns the number of electoral votes that the given state has
@@ -74,12 +61,11 @@ public class BackEndElectionMap {
 	   * @return number of electoral votes
 	   */
 	  public String getElectoralVotes(String stateName) {
-		  String elcVotes = null;
-		  ArrayList<String> canidate = (ArrayList<String>) map.get(getState(stateName));
-			
-		  elcVotes = canidate.get(1); 
 		  
-		  return elcVotes;
+		  candidate = hashTable.get(stateName); //get candidate from hashtable
+		  String electoralVotes = candidate.get(0); //get data from candidate
+		  
+		  return electoralVotes;
 	  }
 	  
 	  /**
@@ -91,9 +77,9 @@ public class BackEndElectionMap {
 	   */
 	  public String getWinnerPercent(String stateName) {
 		  String winPercentage = null;
-		  ArrayList<String> canidate = (ArrayList<String>) map.get(getState(stateName));
-			
-		  winPercentage = canidate.get(2); 
+		  candidate = hashTable.get(stateName); //get candidate from hashtable
+	
+		  winPercentage = candidate.get(2); //get data from candidate
 		  
 		  return winPercentage;
 	  }
@@ -107,9 +93,9 @@ public class BackEndElectionMap {
 	   */
 	  public String getLoserPercent(String stateName) {
 		  String loserVotePercentage = null;
-		  ArrayList<String> canidate = (ArrayList<String>) map.get(getState(stateName));
+		  candidate = hashTable.get(stateName); //get candidate from hashtable
 			
-		  loserVotePercentage = canidate.get(3); 
+		  loserVotePercentage = candidate.get(3); //get data from candidate
 		  
 		  return loserVotePercentage;
 	  }
