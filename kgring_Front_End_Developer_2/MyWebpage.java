@@ -10,7 +10,7 @@ public class MyWebpage {
         public static void main(String[] args) {
             ElectionBackEnd obj = new ElectionBackEnd(); //creates an ElectionBackEnd object so I can use the methods
                 System.out.println("<html><head><title>2020 Election Results</title><style>"); //start the webpage with the title "2020 Election Results"
-                System.out.println("body{background-color: AliceBlue;padding-bottom: 100px;}"); //sets the light blue color of the webpage and the padding at the bottom
+                System.out.println("body{background-color: AliceBlue;padding-bottom: 200px;}"); //sets the light blue color of the webpage and the padding at the bottom
                 System.out.println("h1{color: DodgerBlue;text-align: center;font-size: 100px;font-family: Verdana;}"); //sets the blue color, spacing, and size of the header
                 System.out.println(".button{font-size: 16px;background-color: Dimgray;color: white;border: none;text-align: center;width: 120px;height: 50px;}"); //style information for button
                 System.out.println(".blue:hover{background-color: DodgerBlue;}"); //if a blue class button is hovered it will turn blue
