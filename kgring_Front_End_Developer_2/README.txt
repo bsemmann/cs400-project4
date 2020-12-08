@@ -29,13 +29,8 @@ I created electionMap.html
 
 Contributions Week 3:
 ---------------------
-<Replace this with a list your contributions for the week 3 deliverable.
-You can list the java files that you wrote and committed during the first week,
-or the data files your created or worked on. If you haven't written any code or
-other content that your can commit, provide a list of the work that you did
-during week 3. Make sure that all your week 3 contributions and this section
-of the readme are committed and pushed to the GitHub repo by the week 3 deadline
-on 12/08 at 11:59pm CST.>
+I replaced electionMap.html with MyWebpage.java as I needed to use a CGI script to create a webpage that use multiple java classes.
+I replaced the placeholder election data in the webpage with the methods provided by the BackEnd, all of which is in MyWebPage.java now.
 
 Files written by me:
 --------------------
