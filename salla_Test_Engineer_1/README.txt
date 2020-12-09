@@ -35,8 +35,7 @@ HashTableMap.java
 
 Web address at which the program is available:
 ----------------------------------------------
-https://pages.cs.wisc.edu/~alla/Election.html
+https://pages.cs.wisc.edu/~alla/cgi_activity/csv.cgi
 
 Additional notes about the submission:
 --------------------------------------
-The run goal of the makefile simply runs the junit tests, as the real application interface is on a webpage that is linked above.
