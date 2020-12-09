@@ -47,4 +47,9 @@ http://34.123.142.107/cgi-bin/test.cgi
 
 Additional notes about the submission:
 --------------------------------------
-<List any additional notes for the grader here (only required by the final deadline).>
+The goal <run> in the Makefile outputs the HTML/CSS code of our Webpage. Our final project can be found by going to the link above.
+Also I wasn't sure if we had to upload our cgi file, and I couldn't figure out how, so here is the code within it:
+#!/bin/bash
+echo "Content-type: text/html"
+echo ""
+java -cp . MyWebpage $QUERY_STRING

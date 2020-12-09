@@ -7,7 +7,7 @@ the team's GitHub repo.
 Name of submitting team member: <Bhuvanesh Reddy Bathala>
 Wisc email of submitting team member: <bbreddy@wisc.edu>
 Team name: <ff>
-Role of submitting team member: <Back End Developer>
+Role of submitting team member: <Back End Developer 1>
 TA: <Abhaya Kumar>
 Lecturer: <Gary Dahl>
 
@@ -23,35 +23,21 @@ Created an extra method to check if the state required is actually present in th
 
 Contributions Week 3:
 ---------------------
-<Replace this with a list your contributions for the week 3 deliverable.
-You can list the java files that you wrote and committed during the first week,
-or the data files your created or worked on. If you haven't written any code or
-other content that your can commit, provide a list of the work that you did
-during week 3. Make sure that all your week 3 contributions and this section
-of the readme are committed and pushed to the GitHub repo by the week 3 deadline
-on 12/08 at 11:59pm CST.>
+Created extra Methods getWinnerName,getElectoralVotes,getWinnerVotePercent,getLoserVotePercent and getContainsKey methods 
+so that the data retrieval process would become easier for the front end developer
 
 Files written by me:
 --------------------
-<List ALL of the source files here that were written by you. Note that each of the
-files must contain correct file headers, including your name, team, and role. List
-files one per line in this section of the README. Only complete this section with
-your final week 3 submission of project four.>
+ElectionBackEnd.java
 
 Files submitted with this project that were developed in an earlier project:
 ----------------------------------------------------------------------------
-<If you have any files written by you or your team in your submission that were
-written for an earlier project and that you re-used for project four, replace this
-text with a list of these files. Provide file name and path as well as the project
-that they were originally developed for.>
+HashTableMap.java and MapADT.java
 
 Web address at which the program is available:
 ----------------------------------------------
-<If you and your team have written a web app that is available on the internet,
-replace this text with its address. This is not a requirement of Project Four
-and you will not loose points for not implementing a web application or for not
-having a running version on the web.>
+https://pages.cs.wisc.edu/~bhuvanesh/cgi_activity/csv.cgi
 
 Additional notes about the submission:
 --------------------------------------
-<List any additional notes for the grader here (only required by the final deadline).>
+The goal run just outputs the HTML/CSS file. Our final project is present in the link above. 

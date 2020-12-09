@@ -30,13 +30,12 @@ TestApplication.java
 Files submitted with this project that were developed in an earlier project:
 ----------------------------------------------------------------------------
 MapADT.java
-ListNode.java
 HashTableMap.java
 
 Web address at which the program is available:
 ----------------------------------------------
-https://pages.cs.wisc.edu/~alla/Election.html
+https://pages.cs.wisc.edu/~alla/cgi_activity/csv.cgi
 
 Additional notes about the submission:
 --------------------------------------
-The run goal of the makefile simply runs the junit tests, as the real application interface is on a webpage that is linked above.
+THe goal run in the Makefile just outputs the HTML/CSS code of our Webpage. Our final project can be found by going to the link above.
