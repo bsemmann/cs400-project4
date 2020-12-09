@@ -38,3 +38,4 @@ https://pages.cs.wisc.edu/~alla/cgi_activity/csv.cgi
 
 Additional notes about the submission:
 --------------------------------------
+THe goal run in the Makefile just outputs the HTML/CSS code of our Webpage. Our final project can be found by going to the link above.
