@@ -30,7 +30,6 @@ TestApplication.java
 Files submitted with this project that were developed in an earlier project:
 ----------------------------------------------------------------------------
 MapADT.java
-ListNode.java
 HashTableMap.java
 
 Web address at which the program is available:
