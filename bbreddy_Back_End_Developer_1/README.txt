@@ -40,4 +40,4 @@ https://pages.cs.wisc.edu/~bhuvanesh/cgi_activity/csv.cgi
 
 Additional notes about the submission:
 --------------------------------------
-<List any additional notes for the grader here (only required by the final deadline).>
+The goal run just outputs the HTML/CSS file. Our final project is present in the link above. 
