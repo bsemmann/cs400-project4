@@ -27,8 +27,12 @@ class TestApplication {
    */
 
   void testWinnerName() {
-    
-    if (!(obj.getWinnerName("Alabama").trim().equals("Donald Trump")))
+    list.add("9");
+    list.add("Donald Trump");
+    list.add("62.23");
+    list.add("36.68");
+    map.put("Alabama", list);
+    if (!(obj.getWinnerName("Alabama").equals("Donald Trump")))
       fail("Not yet implemented");
   }
 
@@ -44,7 +48,7 @@ class TestApplication {
     list.add("49.39");
     list.add("49.09");
     map.put("Arizona", list);
-    if (!(obj.getElectoralVotes("Arizona").trim().equals("11")))
+    if (!(obj.getElectoralVotes("Arizona").equals("11")))
       fail("Not yet implemented");
   }
 
@@ -60,7 +64,7 @@ class TestApplication {
     list.add("63.59");
     list.add("34.25");
     map.put("California", list);
-    if (!(obj.getWinnerVotePercent("California").trim().equals("63.59")))
+    if (!(obj.getWinnerVotePercent("California").equals("63.59")))
       fail("Not yet implemented");
   }
 
@@ -76,7 +80,7 @@ class TestApplication {
     list.add("51.22");
     list.add("47.87");
     map.put("Florida", list);
-    if (!(obj.getLoserVotePercent("Alabama").trim().equals("36.68")))
+    if (!(obj.getLoserVotePercent("Florida").equals("47.87")))
       fail("Not yet implemented");
   }
 
