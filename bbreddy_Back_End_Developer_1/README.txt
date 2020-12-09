@@ -7,7 +7,7 @@ the team's GitHub repo.
 Name of submitting team member: <Bhuvanesh Reddy Bathala>
 Wisc email of submitting team member: <bbreddy@wisc.edu>
 Team name: <ff>
-Role of submitting team member: <Back End Developer>
+Role of submitting team member: <Back End Developer 1>
 TA: <Abhaya Kumar>
 Lecturer: <Gary Dahl>
 
