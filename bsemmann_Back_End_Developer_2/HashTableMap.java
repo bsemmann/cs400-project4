@@ -1,8 +1,8 @@
 // --== CS400 File Header Information ==--
-// Name: Adam Tupitza
-// Email: tupitza@wisc.edu
+// Name: Brian Semmann
+// Email: bsemmann@wisc.edu
 // Team: FF
-// Role: Data Wrangler 1
+// Role: Back End Developer 2
 // TA: Abhay Kumar
 // Lecturer: Gary Dahl
 // Notes to Grader: n/a
